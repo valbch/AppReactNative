@@ -1,0 +1,395 @@
+/* Header */
+
+header {
+  background: url("images/fond1.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 95vh;
+  border-bottom: 1px solid #000;
+}
+.navbar {
+  background-color: #1e70b7;
+}
+.nav-item:hover {
+  opacity: 0.6;
+}
+
+.logo {
+  width: 200px;
+  transition: all 0.4s ease;
+  background-color: #1e70b7;
+}
+
+.text-intro {
+  padding-left: 20px;
+  padding-top: 600px;
+}
+h1 {
+  font-size: 80px;
+  line-height: 1;
+  color: #ffffff;
+  text-transform: uppercase;
+  font-weight: bold;
+  background-color: transparent;
+  text-decoration: none;
+  border-width: 0px;
+  border-color: rgb(255, 255, 255);
+  border-style: none;
+  text-shadow: 2px 2px #000000;
+  -webkit-font-smoothing: antialiased !important;
+}
+
+.preTxt {
+  z-index: 6;
+  font-size: 48px;
+  margin: 0;
+  padding: 0px;
+  color: #ffffff;
+  line-height: 0.5;
+  font-family: "lato";
+  text-shadow: 2px 2px #000000;
+  font-family: "Sorts Mill Goudy", serif;
+}
+
+/* Navbar */
+/* effet js*/
+#main-nav {
+  transition: all 1s ease;
+}
+.navbar-brand {
+  font-size: 45px !important;
+
+  transition: all 0.4s ease;
+}
+.navbar a {
+  font-family: "Lato", sans-serif;
+  letter-spacing: 3px;
+  font-size: 15px;
+  color: #fff !important;
+  font-weight: 700;
+  transition: all 0.4s ease;
+}
+
+.navbar.opaque .navbar-brand {
+  font-size: 27px !important;
+  /* transition pour le retour */
+  transition: all 0.4s ease;
+}
+.navbar.opaque a {
+  font-size: 11px;
+  transition: all 0.4s ease;
+}
+
+/* Les 3 cards */
+.card-title {
+  font-family: "Lato", sans-serif;
+  color: #3e3e3e;
+}
+
+.card-body {
+  font-family: "lato";
+  color: #656565;
+}
+.card-header {
+  font-family: "lato";
+  color: #2c2f4e;
+}
+
+.scrollbar {
+  overflow-y: scroll;
+  max-height: 300px;
+}
+/* Mon parcours */
+
+#aPropos {
+  margin-top: 75px;
+  padding-bottom: 75px;
+  border-bottom: 1px dashed #3e3e3e;
+}
+h5 .btn {
+  font-family: "lato";
+  color: #2c2f4e;
+}
+.container {
+  font-family: "lato";
+  color: #2c2f4e;
+}
+button.btn {
+  color: #3e3e3e;
+}
+
+.btn {
+  font-family: "lato";
+}
+
+/* Trois Icones */
+
+#icones {
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+/* ban1 premiere banniere */
+
+#ban1 {
+  position: relative;
+  background: url("img/banniere1.png");
+  background-position: right;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  /* pour centrer le bouton et les textes */
+  text-align: center;
+}
+
+/* Galerie */
+
+.h2Photos {
+  padding-top: 50px;
+  padding-bottom: 20px;
+  font-family: "Lato";
+  font-size: 70px;
+}
+
+#galerie.container p {
+  padding-bottom: 40px;
+}
+/* seconde banniere */
+
+#ban2 {
+  position: relative;
+  min-height: 300px;
+  background: url("images/fond2.PNG");
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position: center;
+  text-align: center;
+}
+
+#carouselContent {
+  margin-top: 70px;
+  font-size: 35px;
+  color: #3e3e3e;
+  font-weight: 400;
+}
+/*  Cartes */
+
+.offreH {
+  font-size: 40px;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  font-family: "Lato", sans-serif;
+  color: #3e3e3e;
+}
+
+#cartes {
+  padding: 50px 0 100px 0;
+}
+
+.threeCards {
+  width: 300px;
+  height: 520px;
+  margin: 30px auto;
+  position: relative;
+  transition: 0.2s ease-in;
+  box-shadow: 0px 10px 30px black;
+}
+
+.threeCards:hover {
+  transform: scale(1.1);
+}
+
+.header {
+  height: 200px;
+  width: 300px;
+  position: relative;
+  font-family: "Lato";
+  background: rgba(18, 31, 163, 0.2);
+}
+h2 {
+  font-family: "Lato", sans-serif;
+  color: #3e3e3e;
+}
+
+.header h2 {
+  margin: 0;
+  position: relative;
+  top: 130px;
+  text-align: center;
+
+  font-size: 15px;
+  color: #3e3e3e;
+}
+#spanPrix {
+  font-size: 40px;
+  color: #7d8408;
+}
+/* amteur pro etc titre des cartes*/
+.price {
+  height: 120px;
+  width: 300px;
+  background: rgba(125, 132, 8, 0.5);
+  clip-path: polygon(0 0, 100% 0, 100% 75%, 0 100%);
+  position: absolute;
+  top: 0;
+}
+
+.price h2 {
+  margin: 0;
+  text-align: center;
+  color: #fff;
+  font-family: "Lato", sans-serif;
+  font-size: 30px;
+  position: relative;
+  top: 30px;
+}
+
+.details {
+  background: white;
+  height: 60px;
+  text-align: center;
+  line-height: 60px;
+  font-family: "Lato";
+  transition: all 0.2s ease-in;
+  color: #3e3e3e;
+}
+.details:hover {
+  background: rgba(181, 208, 230, 0.1);
+}
+hr {
+  background-color: #7d8408;
+}
+.fa-chevron-right {
+  color: #7d8408;
+}
+
+#btn {
+  background: white;
+  height: 80px;
+}
+
+#btn a {
+  text-decoration: none;
+  font-family: "lato";
+  height: 50px;
+  width: 120px;
+  display: block;
+  margin: auto;
+  text-align: center;
+  color: #7d8408;
+  line-height: 50px;
+  position: relative;
+  top: 10px;
+  border-radius: 30px;
+  border: 1px solid #7d8408;
+  transition: all 0.2s ease-in;
+}
+
+#btn a:hover {
+  background: #7d8408;
+  color: white;
+}
+/* Progress section */
+
+#progress {
+  border-top: 1px dashed #3e3e3e;
+
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+.list-unstyled {
+  font-size: xx-large;
+  color: #3e3e3e;
+}
+
+.map-container-section {
+  overflow: hidden;
+  padding-bottom: 56.25%;
+  position: relative;
+  height: 0;
+}
+.map-container-section iframe {
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+}
+
+/* reseau sociaux*/
+.fab:hover {
+  opacity: 0.6;
+}
+.btn:hover {
+  opacity: 0.6;
+}
+
+/* Média Queries */
+
+@media screen and (max-width: 800px) {
+  /* Header */
+
+  header {
+    height: 75vh;
+  }
+
+  .text-intro {
+    padding-top: 300px;
+    padding-bottom: 200px;
+  }
+
+  .preTxt {
+    font-size: 40px;
+  }
+
+  h1 {
+    font-size: 81px;
+  }
+  .navbar a {
+    font-size: 11px;
+
+    transition: all 0.4s ease;
+  }
+}
+
+/* section contact */
+.lead {
+  color: #7d8408;
+}
+
+/* Barre de progrés mode petit*/
+
+@media screen and (max-width: 762px) {
+  #progress {
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+
+  .competences {
+    padding-top: 50px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  /* Header */
+
+  header {
+    height: 55vh;
+  }
+
+  .text-intro {
+    padding-top: 200px;
+  }
+  .text-intro {
+    transform: scale(0.8);
+  }
+  .navbar-brand {
+    font-size: 35px !important;
+  }
+  .preTxt {
+    font-size: 15px;
+  }
+
+  h1 {
+    font-size: 30px;
+  }
+}
